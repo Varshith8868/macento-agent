@@ -143,6 +143,7 @@
 // }
 
 import React, { useState, useEffect, useRef } from "react";
+import logo from "./assets/Men.png";
 
 /**
  * Macento Agent — Fullscreen ChatGPT‑style matte UI
@@ -247,7 +248,7 @@ export default function App() {
     <div className="min-h-screen w-screen bg-gradient-to-b from-neutral-950 to-neutral-900 text-neutral-100 flex flex-col">
       {/* Header */}
       <header className="border-b border-white/10 bg-neutral-950/70 backdrop-blur py-5 flex flex-col items-center">
-        <img src={logoSrc} alt="Macento Logo" className="h-12 w-auto mb-2" />
+        <img src={logo} alt="Macento Logo" className="h-12 w-auto mb-2" />
         <h1 className="text-2xl font-semibold tracking-wider uppercase">MACENTO AGENT</h1>
         <p className="text-xs text-neutral-400 mt-1">Conversational Intelligence</p>
       </header>
